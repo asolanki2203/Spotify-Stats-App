@@ -19,8 +19,7 @@ Tech Stack:
 3. Spotify and Genius API (REST API’s): We use Axios to fetch the required data from these API’s.
 
 The application opens up the login page when it first starts. The user is prompted to login using his/her spotify account credentials. 
-
-![IMG1](./images/img2.jpg | width=400)
+<img src="./images/img2.jpg" width="400">
 
 The app uses React Navigation tools like Stack navigation, and Tab Navigation to navigate between screens.
 The app checks if the user is signed in and accordingly shows either the login Navigation Stack or the Home Navigation Stack.
