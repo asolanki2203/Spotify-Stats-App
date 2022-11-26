@@ -20,7 +20,7 @@ Tech Stack:
 
 The application opens up the login page when it first starts. The user is prompted to login using his/her spotify account credentials. 
 
-![IMG1](./images/img2.jpg)
+![IMG1](./images/img2.jpg | width=400)
 
 The app uses React Navigation tools like Stack navigation, and Tab Navigation to navigate between screens.
 The app checks if the user is signed in and accordingly shows either the login Navigation Stack or the Home Navigation Stack.
@@ -38,6 +38,6 @@ The lyrics are fetched from the Genius API as Spotify API does not have an endpo
 ![IMG1](./images/img1.jpg)
 3. Your Stats page: All the major stats like Users top genres, top 3 favourite artists and tracks, as well as audio insights for users top streams are displayed here. Users can share these insights by taking a screenshot of this page.
 ![IMG1](./images/img6.jpg)
-![IMG1](./images/img9.jpg)
+![IMG1](./images/img5.jpg | width=400)
 4. Profile page: This page shows users’ profile info like country, email, followers, etc. and has a Logout button to logout from the app.
-![IMG1](./images/img5.jpg)
+![IMG1](./images/img9.jpg)
