@@ -20,24 +20,24 @@ Tech Stack:
 
 The application opens up the login page when it first starts. The user is prompted to login using his/her spotify account credentials. 
 
-![IMG1](./images/img2.png)
+![IMG1](./images/img2.jpg)
 
 The app uses React Navigation tools like Stack navigation, and Tab Navigation to navigate between screens.
 The app checks if the user is signed in and accordingly shows either the login Navigation Stack or the Home Navigation Stack.
 The Home page is displayed once the user is logged into the app. This page shows user’s recently played songs and has a button which navigates to the Global top 50 songs page. The top 50 tracks on Spotify are displayed on this page. User can tap on any track/artist to navigate to the tracks/artist page which shows track/artist specific stats like popularity, audio insights, lyrics for tracks and genres and popularity for artists.
 
-![IMG1](./images/img3.png)
-![IMG1](./images/img8.png)
-![IMG1](./images/img10.png)
-![IMG1](./images/img7.png)
+![IMG1](./images/img3.jpg)
+![IMG1](./images/img8.jpg)
+![IMG1](./images/img10.jpg)
+![IMG1](./images/img7.jpg)
 
 The lyrics are fetched from the Genius API as Spotify API does not have an endpoint for this. Further, Home page has a navigation bar at the bottom through which users can navigate to the following pages from the home page:
 1. Your Top Streams: Shows users top 50 artists and tracks for the past 4 weeks, 6 months and lifetime. The duration can be toggled as desired. Again, users can tap on an artist or track to see specific insights.
-![IMG1](./images/img4.png)
+![IMG1](./images/img4.jpg)
 2. Search Page: Users can search for any tracks or artists and see specific insights for them through this page.
-![IMG1](./images/img1.png)
+![IMG1](./images/img1.jpg)
 3. Your Stats page: All the major stats like Users top genres, top 3 favourite artists and tracks, as well as audio insights for users top streams are displayed here. Users can share these insights by taking a screenshot of this page.
-![IMG1](./images/img6.png)
-![IMG1](./images/img9.png)
+![IMG1](./images/img6.jpg)
+![IMG1](./images/img9.jpg)
 4. Profile page: This page shows users’ profile info like country, email, followers, etc. and has a Logout button to logout from the app.
-![IMG1](./images/img5.png)
+![IMG1](./images/img5.jpg)
